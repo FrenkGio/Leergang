@@ -1,8 +1,15 @@
 
 const chai = require('chai');
+const expect = require('chai').expect;
 const calculations = require('../app/calculations');
 
 chai.should();
+
+describe ( 'Add three numbers', () => {
+    it('Boolean test', function () {
+        expect(true).to.equal(true)
+    });
+});
 
 describe('Add two numbers', () => {
     it('Equals 4', () => {
