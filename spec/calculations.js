@@ -5,9 +5,15 @@ const calculations = require('../app/calculations');
 
 chai.should();
 
-describe ( 'Add three numbers', () => {
-    it('Boolean test', function () {
+describe ( 'Boolean test', () => {
+    it('value should be true', function () {
         expect(true).to.equal(true)
+    });
+});
+
+describe ('This is a small boolean test for a false boolean', () =>  {
+    it('should be false', function () {
+        expect(false).to.equal(false)
     });
 });
 
